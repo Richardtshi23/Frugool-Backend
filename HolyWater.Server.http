@@ -1,0 +1,6 @@
+@HolyWater.Server_HostAddress = http://localhost:5022
+
+GET {{HolyWater.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
