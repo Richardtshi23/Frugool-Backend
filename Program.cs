@@ -147,7 +147,7 @@ else
         {
             context.Response.StatusCode = 500;
             context.Response.ContentType = "application/json";
-            context.Response.Headers.Append("Access-Control-Allow-Origin", "https://holy-essence-angular.onrender.com");
+            context.Response.Headers.Append("Access-Control-Allow-Origin", "https://frugool-angular.onrender.com");
             context.Response.Headers.Append("Access-Control-Allow-Credentials", "true");
             await context.Response.WriteAsync("{\"error\":\"Internal Server Error. Check Render logs.\"}");
         });
